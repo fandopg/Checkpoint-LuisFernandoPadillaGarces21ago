@@ -1,0 +1,22 @@
+Comandos:
+mkdir Checkpoint-LuisFernandoPadillaGarces21ag
+cd Checkpoint-LuisFernandoPadillaGarces21ag/
+git init
+git remote add origin git@github.com:fandopg/Checkpoint-LuisFernandoPadillaGarces21ago.git
+git remote -v
+touch main.js index.html
+git add .
+git commit -m "commit 01 de LuisFernandoPadillaGarcés"
+git push origin main
+git branch feature
+git switch feature
+git status
+git push origin main
+git branch
+mkdir Hardware Software SeguridadInformatica
+git add .
+git commit -m "commit 02 de LuisFernandoPadillaGarcés"
+git push origin feature
+git checkout main
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
